@@ -1,0 +1,18 @@
+# Bincom Test - Delta State Election Results
+
+PHP and MySQL project for the Bincom preliminary interview.
+
+## Setup
+1. Install XAMPP and start Apache and MySQL.
+2. Open http://localhost/phpmyadmin, create a database named `bincom_test`, and import `bincom_test.sql`.
+3. Copy these files into `C:\xampp\htdocs\bincom\`.
+4. Open http://localhost/bincom/index.php
+
+## Pages
+- `q1.php`: result for a single polling unit (LGA > Ward > Polling Unit)
+- `q2.php`: summed total result for an LGA, calculated from polling unit results
+- `q3.php`: store results for all parties for a new polling unit
+
+## Notes
+- `config.php` holds the database connection (default XAMPP user `root`, empty password).
+- `api.php` powers the chained dropdowns.
