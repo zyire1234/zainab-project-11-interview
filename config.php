@@ -1,6 +1,6 @@
 <?php
-// Import bincom_test.sql into MySQL first, then edit these values.
-$pdo = new PDO('mysql:host=localhost;dbname=bincom_test;charset=utf8mb4', 'root', '', [
+// InfinityFree database settings (host version - do NOT upload this version to GitHub)
+$pdo = new PDO('mysql:host=sql101.infinityfree.com;dbname=if0_43416806_zainab;charset=utf8mb4', 'if0_43416806', 'YOUR_PASSWORD', [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 ]);
