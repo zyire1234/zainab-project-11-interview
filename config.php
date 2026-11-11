@@ -1,6 +1,6 @@
 <?php
 // InfinityFree database settings (host version - do NOT upload this version to GitHub)
-$pdo = new PDO('mysql:host=sql101.infinityfree.com;dbname=if0_43416806_zainab;charset=utf8mb4', 'if0_43416806', 'YOUR_PASSWORD', [
+$pdo = new PDO('mysql:host=sql101.infinityfree.com;dbname=if0_43416806_zainab;charset=utf8mb4', 'if0_43416806', 'AwOyoEnW7TLOp0', [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 ]);
